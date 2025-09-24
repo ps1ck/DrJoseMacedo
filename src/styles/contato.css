@@ -1,0 +1,65 @@
+#contato {
+  margin: 0;
+  background-color: var(--color-neutral-1);
+}
+
+.contato-container {
+  display: flex;
+  flex-direction: row; /* Lado a lado */
+  align-items: center; 
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap; /* Evita quebrar feio em telas menores */
+}
+
+/* Contatos (esquerda) */
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Espaço entre os itens */
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  background: var(--color-neutral-0);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}
+
+.botoes-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+#tel-button a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Mapa (direita) */
+.contato-mapa {
+  flex: 2; /* maior que o da esquerda */
+  max-width: 300px;
+  height: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}
+
+
+@media screen and (max-width: 1170px) {
+    .contato-container {
+      flex-direction: column;
+    }
+
+    .contato-info {
+      width: 50%;
+    }
+
+    .contato-mapa {
+      width: 50%;
+    }
+}
+

@@ -1,0 +1,32 @@
+footer{
+    background-color: var(--color-primary-2);
+}
+
+#footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8% 24px 8%;
+}
+
+#copyright {
+    color: var(--color-neutral-4);
+    font-weight: 500;
+}
+
+#divulgacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 1170px) {
+    #footer-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #divulgacao {
+        gap: 15px;
+    }
+}

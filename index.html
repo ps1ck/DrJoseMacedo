@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>José Macedo</title>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div id="nav-logo">
+                <img src="src/images/logo.png" id="imagem-logo">
+                <span>Dr. José Macedo</span>
+            </div>
+
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#avaliacoes">Avaliações & Contato</a>
+                </li>
+                
+            </ul>
+
+                <button class="btn-default">
+                    <a href="https://wa.me/6281521042?text=Olá,%20quero%20agendar%20uma%20consulta!" target="_blank" rel="noopener noreferrer">
+                    Agende uma consulta!
+                </a> 
+                </button> 
+
+                <button id="mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            
+        </nav>
+
+        <div id="mobile-menu">
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#avaliacoes">Avaliações & Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="https://wa.me/6281521042?text=Olá,%20quero%20agendar%20uma%20consulta!" target="_blank" rel="noopener noreferrer">
+                    Agende uma consulta!
+                </a>  
+            </button>
+        </div>
+    </header>
+
+    <main id="content">        
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Mais do que estética: 
+                                
+                    <span>saúde, confiança e identidade.</span>
+                </h1>
+
+                <p id="description">
+                    Seja bem vindo! Aqui você encontra tudo sobre mim e os procedimentos que eu realizo em consultório!
+                </p>
+
+                <div id="cta-buttons">
+                    <a href="#servicos" class="btn-default">
+                        Serviços
+                    </a>
+
+                    <a href="tel:+5562981521042" id="phone-button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (62) 98152-1042
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/6281521042?text=Olá,%20quero%20mais%20informações!" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/dr.josemacedofilho/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/people/DrJos%C3%A9-Mac%C3%AAdo-Filho-Dermatologia-e-Medicina-Est%C3%A9tica/61558650271087/#" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="src/images/macedo1.png" >
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <img src="src/images/macedo2.png" id="sobremim-foto" >
+
+            <div id="sobremim-content">
+                <h2 class="section-title">
+                    Sobre mim
+                </h2>
+                <h3 class="section-subtitle">
+                    José Macedo - CRM-GO: 12345
+                </h3>
+
+                <div class="sobremim-desc">
+                    <p>
+                        Olá! Sou um médico apaixonado pelo que faço, pós-graduado em Dermatologia e Medicina Estética. 
+                        Uso a medicina como um meio de oferecer um olhar atento e cuidadoso para revelar o que VOCÊ tem de melhor. Acredito que
+                        cada pele carrega uma identidade única e é através da medicina e estética que valorizo sua beleza natural, potencializo
+                        sua melhor versão e transformo autoestima em confiança, sempre com delicadeza e cuidado. Verdadeiramente amo o que faço e,
+                        por isso, valorizo cada detalhe do SEU processo.
+                    </p>
+                </div>
+        </section>
+
+        <section id="servicos">
+            <h2 class="section-title" id="titulo1">Serviços</h2>
+            <h3 class="section-subtitle" id="titulo2">Confira os procedimentos disponíveis!</h3>
+
+            <div class="servico">
+                <div class="servico-content-left">
+                    <h2 class="section-title">
+                        Toxina Botúlinica (BOTOX)
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Facial
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Tratamento de rugas dinâmicas e prevenção do envelhecimento facial.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20em%20BOTOX!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            A toxina botulínica facial é um planejamento estético que suaviza rugas dinâmicas,
+                            aquelas que aparecem com os movimentos do rosto, como sorrir ou franzir a testa.
+                            Ela age relaxando os músculos responsáveis por essas linhas, melhorando a aparência
+                            e proporcionando um efeito natural. Além disso, a aplicação da toxina ajuda a 
+                            prevenir o envelhecimento precoce, evitando a formação de novas rugas ao reduzir
+                            as contrações musculares repetidas. É uma solução segura e eficaz para quem deseja
+                            manter a pele jovem e com aspecto renovado.
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <video src="src/images/botox-vid.mp4" controls></video>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/botox1.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/botox2.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <video src="src/images/botox-vid2.mp4" controls></video>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/botox3.jpg" >
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                    <img src="src/images/botox-padrao.jpg" class="servico-foto-right">
+            </div>
+
+            <div class="servico">
+                <img src="src/images/preenchimento-padrao.jpg" class="servico-foto-left">
+                <div class="servico-content-right">
+                    <h2 class="section-title">
+                        Preenchimento
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Facial e Glúteo
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Restauração de volume, definição de contornos e harmonização.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20no%20preenchimento!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            O preenchimento facial e glúteo é um procedimento estético que restaura volumes perdidos,
+                            redefine contornos e promove a harmonização do corpo e do rosto. Por meio da aplicação de
+                            substâncias específicas, ele melhora a forma e o equilíbrio das áreas tratadas, 
+                            proporcionando um resultado natural e harmonioso.
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="src/images/preenchimento1.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/preenchimento2.png" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/preenchimento3.png" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/preenchimento4.png" >
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="servico">
+                <div class="servico-content-left">
+                    <h2 class="section-title">
+                        PRP Capilar
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Plasma Rico em Plaquetas
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Terapia regenerativa para alopecia androgenética e eflúvio telógeno.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20no%20PRP!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            O PRP Capilar (Plasma Rico em Plaquetas) é uma terapia regenerativa indicada
+                            para tratar a alopecia androgenética e o eflúvio telógeno. O procedimento
+                            utiliza o próprio plasma do paciente, rico em fatores de crescimento, para
+                            estimular a revitalização dos folículos capilares, promovendo o fortalecimento
+                            e o crescimento dos fios.
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="src/images/prp1.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/prp2.jpg" >
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                    <img src="src/images/prp-padrao.jpg" class="servico-foto-right">
+            </div>
+
+            <div class="servico">
+                <img src="src/images/ultrassom-padrao.jpg" class="servico-foto-left">
+                <div class="servico-content-right">
+                    <h2 class="section-title">
+                        Ultrassom
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Micro e Macrofocado
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Efeito lifting não cirúrgico, melhora da flacidez facial e corporal.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20no%20ultrassom!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            O ultrassom micro e macrofocado é um tratamento não cirúrgico que promove efeito lifting,
+                            melhorando a flacidez facial e corporal. Ele estimula a produção de colágeno nas camadas
+                            profundas da pele, proporcionando firmeza e renovação natural. 
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="src/images/ultrassom1.jpg">
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="servico">
+                <div class="servico-content-left">
+                    <h2 class="section-title">
+                        Microagulhamento com Dermapen & Derma Roller
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Facial e Corporal
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Estimulação de colágeno, melhora da textura da pele e tratamento de cicatrizes.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20no%20microagulhamento!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            O microagulhamento facial e corporal é um procedimento que estimula a produção de 
+                            colágeno, melhorando a textura da pele e promovendo a regeneração de cicatrizes. 
+                            Ele ajuda a renovar a pele, deixando-a mais firme e uniforme. 
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="src/images/microagulhamento.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/microagulhamento2.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/microagulhamentoantes.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/microagulhamentodps.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <video src="src/images/microagulhamento-vid.mp4" controls></video>
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                    <img src="src/images/microagulhamento-padrao.png" class="servico-foto-right">
+            </div>
+
+            <div class="servico">
+                <img src="src/images/escleroterapia-padrao.png" class="servico-foto-left">
+                <div class="servico-content-right">
+                    <h2 class="section-title">
+                        Escleroterapia 
+                    </h2>
+                    <h3 class="section-subtitle">
+                        De Vasos Superficiais
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Tratamento estético para varicoses e telangiectasias.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20na%20escleroterapia!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            A escleroterapia é um tratamento estético indicado para varicoses e telangiectasias,
+                            que são pequenos vasos superficiais visíveis na pele. O procedimento promove a 
+                            eliminação dessas imperfeições, melhorando a aparência das pernas.
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="src/images/escleroterapia1.jpeg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/esclreroterapia3.jpg" >
+                                </div>
+                               
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="servico">
+                <div class="servico-content-left">
+                    <h2 class="section-title">
+                        Blefaroplastia com
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Jato de Plasma
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Tratamento não cirúrgico da flacidez palpebral, promovendo efeito lifting e rejuvenescimento do olhar, sem cortes
+                            ou pontos.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20na%20blefaroplastia!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            Procedimento estético que consiste na injeção de substâncias na pele para 
+                            corrigir disfunções estéticas, como rugas, sulcos e linhas de expressão, 
+                            e restaurar volumes perdidos com o envelhecimento. A substância usada
+                            para o preenchimento é o ácido hialurônico, um componente biocompatível que,
+                            além de preencher, também hidrata e estimula a produção de colágeno, 
+                            proporcionando um resultado rejuvenescedor e uma aparência mais natural e radiante. 
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="src/images/blefaroplastia1.jpg" >
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/blefaroplastia2.jpg" >
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                    <img src="src/images/blefaroplastia-padrao.jpeg" class="servico-foto-right">
+            </div>
+
+            <div class="servico">
+                <img src="src/images/acne2-e-padrao.jpg" class="servico-foto-left">
+                <div class="servico-content-right">
+                    <h2 class="section-title">
+                        Tratamento de Acne & Rosácea
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Com laser de baixa potência
+                    </h3>
+
+                    <div class="servico-desc">
+                        <p>
+                            Uma solução moderna, indolor e eficaz que ajuda a controlar inflamações, reduzir vermelhidão e melhorar a aparência da pele de forma segura.
+                        </p>
+                        <div class="servico-botoes">
+                            <button class="btn-default">
+                                <a href="https://wa.me/6281521042?text=Olá,%20tenho%20interesse%20no%20tratamento%20de%20Acne%20e%20Rosácea!" target="_blank" rel="noopener noreferrer">
+                                    EU QUERO!
+                                </a>
+                            </button>
+                            <button class="btn-toggle btn-default">Saiba mais</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="servico-detalhes">
+                        <p>
+                            O tratamento de Acne e Rosácea com laser de baixa potência é uma tecnologia avançada que atua de forma suave,
+                            sem causar dor ou desconforto. O laser age diretamente nas áreas afetadas, reduzindo a inflamação, controlando
+                            a vermelhidão e estimulando a regeneração celular. Além de auxiliar no controle das crises, promove uma melhora
+                            visível na textura e uniformidade da pele. É uma alternativa segura e eficaz para quem busca resultados 
+                            progressivos, naturais e duradouros, sem necessidade de procedimentos invasivos!
+                        </p>
+
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="src/images/acne1.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/acne2-e-padrao.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/images/acne3.jpg">
+                                </div>
+                               
+                            </div>
+                            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="avaliacoes">
+            <img src="src/images/macedo3.png" id="avaliacoes-foto" >
+
+            <div id="avaliacoes-content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre mim!
+                </h3>
+
+                <div id="feedbacks">
+                    
+                    <div class="feedback">
+                        <img src="src/images/avatarMarcia.png" class="feedback-avatar" >
+                        <div class="feedback-content">
+                            <div class="feedback-header">
+                                <span>Marcia Mendonça</span>
+                                <span class="feedback-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p>
+                                Excelente profissional! Tratamento sem dor, super recomendo!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatarCibele.png" class="feedback-avatar" >
+                        <div class="feedback-content">
+                            <div class="feedback-header">
+                                <span>Cibele</span>
+                                <span class="feedback-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p>
+                                Dr. Macedo é um excelente profissional, super atencioso e dedicado.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    
+        <section id="contato">
+            <div class="contato-container">
+                <div class="contato-info">
+                    <h2 class="section-title">Entre em contato agora mesmo!</h2>
+
+                    <p><strong>Email:</strong> contato@seudominio.com</p>
+                    <p><strong>Endereço:</strong> Rua 30, N° 168 Setor Marista</p>
+
+                    <div class="botoes-contato">
+                        <div id="tel-button">
+                            <a href="tel:+5562981521042" id="phone-button">
+                                <button class="btn-default">
+                                    <i class="fa-solid fa-phone"></i>
+                                </button>
+                                (62) 98152-1042
+                            </a>
+                        </div>
+
+                        <div class="social-media-buttons">
+                            <a href="https://wa.me/6281521042?text=Olá,%20quero%20mais%20informações!"target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/dr.josemacedofilho/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/people/DrJos%C3%A9-Mac%C3%AAdo-Filho-Dermatologia-e-Medicina-Est%C3%A9tica/61558650271087/#" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato-mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=..."
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg">
+
+        <div id="footer-items">
+            <span id="copyright">
+                &copy 2025 rianmv_
+            </span>
+
+            <div id="divulgacao">
+                <p>
+                    Quer um site como este? Me procure!
+                </p>
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/6281807437" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/rianmv_/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
