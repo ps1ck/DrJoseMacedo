@@ -111,6 +111,14 @@ $(document).ready(function(){
         reset: true 
     })
 
+    ScrollReveal().reveal('.sobremim-foto-container', {
+        origin: 'left',
+        duration: 1600,
+        distance: '20%',
+        reset: true 
+    })
+
+
     ScrollReveal().reveal('#sobremim-content', {
         origin: 'right',
         duration: 1000,
@@ -131,6 +139,13 @@ $(document).ready(function(){
         distance: '20%',
         reset: true 
     })
+    
+    ScrollReveal().reveal('.servico-foto-right-container', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%',
+        reset: true 
+    })
 
     ScrollReveal().reveal('.servico-content-left', {
         origin: 'left',
@@ -146,6 +161,12 @@ $(document).ready(function(){
         reset: true     
     })
 
+    ScrollReveal().reveal('.servico-foto-left-container', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%',
+        reset: true 
+    })
 
     ScrollReveal().reveal('#avaliacoes-foto', {
         origin: 'left',

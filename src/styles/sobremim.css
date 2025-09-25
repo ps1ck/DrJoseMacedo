@@ -10,12 +10,19 @@
     margin-bottom: 5px;
 }
 
-#sobremim-foto {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
+.sobremim-foto-container {
+    width: 450px;
+    height: 450px;
     border: 4px solid #f3c5a7;
     border-radius: 50%;
+    overflow: hidden; 
+    flex-shrink: 0;  
+}
+
+#sobremim-foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #sobremim-content {
@@ -31,7 +38,7 @@
         text-align: center;
     }
 
-    #sobremim-foto {
+    #sobremim-foto, .sobremim-foto-container {
         display: none;
     }
 
