@@ -35,7 +35,7 @@ $(document).ready(function(){
 
         sections.each(function(i) {
             const section = $(this);
-            const sectionTop = section.offset().top - headerHeight;
+            const sectionTop = section.offset().top - headerHeight - 200;
             const sectionBottom = sectionTop+ section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
@@ -135,7 +135,7 @@ $(document).ready(function(){
 
     ScrollReveal().reveal('.servico-foto-right', {
         origin: 'right',
-        duration: 1000,
+        duration: 700,
         distance: '20%',
         reset: true 
     })
@@ -156,7 +156,7 @@ $(document).ready(function(){
 
     ScrollReveal().reveal('.servico-foto-left', {
         origin: 'left',
-        duration: 1000,
+        duration: 700,
         distance: '20%',
         reset: true     
     })

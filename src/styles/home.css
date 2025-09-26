@@ -50,49 +50,12 @@
     box-shadow: none;
 }
 
-#banner {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 70%;
-    height: 100vh;
-    z-index: 2;
-}
 
-#banner img {
-    position: relative; 
-    top: 40%;
-    right: 25%;
-    transform: translate(50%, -50%);
-    height: 95%;
-    width: 100%;
-    object-fit: contain;
-    padding-right: 7.5%;  
-    z-index: 2;
-}
-
-.shape {
-    background-color: var(--color-primary-5);
-    width: 50%;
-    height: 90%;
-    position: absolute;
-    border-radius: 40% 30% 0% 20%;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
 
 @media screen and (max-width: 1170px){
     #home {
         min-height: 100%;
         padding-top: 0px;
-    }
-
-    #banner,
-    #banner img,
-    #home .shape {
-        display: none;
     }
 
     #cta {
