@@ -70,5 +70,9 @@
     .contato-mapa {
       width: 50%;
     }
+
+    .contato-logo {
+      display: none;
+    }
 }
 

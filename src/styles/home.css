@@ -52,6 +52,10 @@
     box-shadow: none;
 }
 
+.mobilehome{
+    display: none;
+}
+
 #home-shape {
     position: absolute;
     padding: 2% 2% 0% 2%;
@@ -73,7 +77,7 @@
 }
 
 @media screen and (max-width: 1170px){
-    #home-shape, #home-shape img {
+    #home-shape, #homeshape img {
         display: none;
     }
 
@@ -81,6 +85,14 @@
         width: 100%;
         text-align: center;
         align-items: center;
+    }
+
+    #home {
+        flex-direction: column;
+    }
+    
+    .mobilehome {
+        display: block;
     }
 }
 
