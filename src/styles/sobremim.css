@@ -36,14 +36,18 @@
 @media screen and (max-width: 1170px) {
     #sobre-mim {
         text-align: center;
-    }
-
-    #sobremim-foto, .sobremim-foto-container {
-        display: none;
+        flex-direction: column;
     }
 
     #sobremim-content {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sobremim-foto-container {
+    border: 4px solid #f3c5a7;
+    border-radius: 20%;
     }
 }
 

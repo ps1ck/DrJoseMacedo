@@ -52,10 +52,6 @@
     box-shadow: none;
 }
 
-.mobilehome{
-    display: none;
-}
-
 #home-shape {
     position: absolute;
     padding: 2% 2% 0% 2%;
@@ -88,12 +84,10 @@
     }
 
     #home {
-        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
     
-    .mobilehome {
-        display: block;
-    }
 }
 
 @media screen and (max-width: 550px){

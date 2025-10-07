@@ -68,6 +68,14 @@
     color: var(--color-primary-6);
 }
 
+.feedback-header span {
+    font-size: 20px;
+}
+
+.feedback-content p {
+    font-size: 16px;
+}
+
 @media screen and (max-width: 1170px) {
     #avaliacoes {
         flex-direction: column;
